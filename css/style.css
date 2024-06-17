@@ -4,10 +4,10 @@
     margin: 0;
     }
     
-    /* a{
+    a{
         text-decoration: none;
         color : #fff;
-    } */
+    }
     
     p{ 
         color: black;
@@ -18,8 +18,11 @@ header{
     background-color: #000000;
     width: 100%;
 }
-a
-{
+body{
+    background-color: rgba(255, 255, 255, 255);
+    margin: 0;
+    }
+a{
         text-decoration: none;
         color : #fff;
 }
