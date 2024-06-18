@@ -399,7 +399,7 @@ footer main {
         padding-top: 0;
         text-align: center;
         color: #141313;
-        margin-left: 50px;
+        margin-left: 120px;
 
     }
 #header-link {
@@ -423,5 +423,31 @@ footer main {
     height: 40px ;
     font-size: larger;
     margin-right: 80px;
+}
+#footer-2{
+    display: block;
+    margin-left: 2px ;
+    width: 50%;
+}
+#footer-section-3{
+    height: 100px;
+    justify-content: space-between;
+    width: inherit;
+}
+#footer-section-3-item-1{
+    margin: 1px 15px ;
+    height: 100px;
+    padding: 0  0  20px;
+    width: 30%;
+    border-radius: 80%; 
+    background-color: #000000; 
+    display: inline-block;
+}
+
+#footer-section-3-item-2{
+    margin-top: 5px ;
+    float: right;
+    font: 2cm sans-serif;
+    margin-right: 10px;
 }
 }
