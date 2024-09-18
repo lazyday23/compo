@@ -11,8 +11,14 @@
     p{ 
         color: white;
     }
-     h3 + p { 
-        color: black;
+    h3 {
+        color: #000000;
+    }
+    h3 ~ h3 { 
+        color: #074AF8;
+    }
+     h3 ~ p { 
+        color:  black;
     }
 }
 header{
@@ -22,6 +28,10 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#logo a{
+    text-decoration: none;
+    color : #fff;
 }
 #logo{
     font-size: larger;
@@ -47,6 +57,7 @@ header{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(253, 253, 253);
     padding-right: 5px ;
+    text-decoration: none;
 }
 #section-1{
     background-color: #000000;
@@ -104,28 +115,26 @@ header{
     background-image: url(../img/IMG_0537.JPG);
     height:  calc(90vh - 100px);
     background-position: center;
-}
-#section-2{
-    background-color: #000000;
-    color: #ffffff;
-    height: 40vh;
-}
-#grid{
-     display: grid;
-     background-color: #ffffff;
-     color: #040404;
-     border: 2px solid white ;
-     width: 200px;
-     grid-template-rows: auto ;
-     grid-template-columns: 200px 200px;
-}
-#grid h3{
-    color: #074AF8;
-    border: 2px solid white ;
-    width: 200px;
 
 }
-#grid p {
+section{
+    background-color: black;
+
+    height: fit-content;
+}
+#grid{
     display: grid;
-    color: #000000 ;
+    grid-template-columns: 300px  ;
+    grid-template-rows: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #fff;
+}
+.grid-item p{
+    font-size: small;
 }
