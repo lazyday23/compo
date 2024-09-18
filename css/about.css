@@ -59,7 +59,7 @@ header{
     padding-right: 5px ;
     text-decoration: none;
 }
-#section-1{
+.section-1{
     background-color: #000000;
     color: #fff;
     border-top : 1px solid  #ffffffa9;
@@ -88,7 +88,6 @@ header{
     margin-left: 10px ;
     width: 95%;
     height: fit-content;
- 
 }
 #section-1-header{
     box-sizing: content-box;
@@ -137,4 +136,28 @@ section{
 }
 .grid-item p{
     font-size: small;
+}
+#section-2{
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+}
+#Trusted-section{
+    background-color: #1C1B1B;
+    margin-top: 5px;
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px 100px ;
+    margin: 10px ;
+    justify-content: center;
+    grid-column-gap: 20px ;
+    grid-row-gap : 10px;
+    text-align: center;
+    line-height: 100px;
+}
+#Trusted-section-item{
+   border: 1px solid grey;
+   margin: 5px;
+   background-color: #070707;
 }
