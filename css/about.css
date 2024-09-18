@@ -1,0 +1,127 @@
+*{
+    body{
+    background-color: rgba(255, 255, 255, 255);
+    margin: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color : #fff;
+    }
+    p{ 
+        color: white;
+    }
+     h3 + p { 
+        color: black;
+    }
+}
+header{
+    height: fit-content;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    padding-top: 10px ;
+}
+#header-link {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    width: 95%;
+    justify-content: space-evenly;
+    margin :  10px ;
+}
+#header-link a{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 253, 253);
+    padding-right: 5px ;
+}
+#section-1{
+    background-color: #000000;
+    color: #fff;
+    border-top : 1px solid  #ffffffa9;
+    height: fit-content;
+}
+.section-container{
+  margin: 10px  ;
+  width: 95%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+#section-1-item{
+    width: 95%;
+    border-right: 1px solid #ffffff;
+    padding-left: 10px ;
+    height: fit-content;
+}
+#section-container1{
+    margin-left: 10px ;
+    width: 95%;
+    height: fit-content;
+ 
+}
+#section-1-header{
+    box-sizing: content-box;
+    width: 95%;
+    font-weight: 500;
+    font-family: serif;
+    font-style: oblique;
+    padding: 5px ;
+    text-shadow: #ffffff ;
+}
+#section-paragraph{
+    font-size: large;
+    box-sizing: content-box;
+    width: 95%;
+    font-weight: 500;
+    font-family: serif;
+    font-style: italic;
+    padding: 5px ;
+    margin-bottom: 0 ;
+} 
+#contact-image{
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/IMG_0537.JPG);
+    height:  calc(90vh - 100px);
+    background-position: center;
+}
+#section-2{
+    background-color: #000000;
+    color: #ffffff;
+    height: 40vh;
+}
+#grid{
+     display: grid;
+     background-color: #ffffff;
+     color: #040404;
+     border: 2px solid white ;
+     width: 200px;
+     grid-template-rows: auto ;
+     grid-template-columns: 200px 200px;
+}
+#grid h3{
+    color: #074AF8;
+    border: 2px solid white ;
+    width: 200px;
+
+}
+#grid p {
+    display: grid;
+    color: #000000 ;
+}
