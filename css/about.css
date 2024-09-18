@@ -63,6 +63,10 @@ header{
   justify-content: center;
   align-items: flex-start;
 }
+#section-1-item:nth-child(3) {
+    border-right: none;
+  }
+  
 #section-1-item{
     width: 95%;
     border-right: 1px solid #ffffff;
