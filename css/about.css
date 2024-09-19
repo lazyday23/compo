@@ -142,12 +142,10 @@ section{
 }
 #Trusted-section{
     background-color: #1C1B1B;
-    margin-top: 5px;
 
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 100px 100px ;
-    margin: 10px ;
     justify-content: center;
     grid-column-gap: 20px ;
     grid-row-gap : 10px;
