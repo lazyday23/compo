@@ -1,9 +1,4 @@
-*{
-    body{
-    background-color: rgba(255, 255, 255, 255);
-    margin: 0;
-    }
-    
+*{   
     a{
         text-decoration: none;
         color : #fff;
@@ -124,11 +119,13 @@ section{
     grid-template-columns: 300px  ;
     grid-template-rows: 300px;
     justify-content: center;
+    /* border: 2px solid red ; */
 }
 .grid-item{
     padding: 10px;
     margin: 5px 10px;
     background-color: #fff;
+    border: 2px solid grey;
 }
 .grid-item p{
     font-size: small;
@@ -159,6 +156,9 @@ section{
 }
 #Trusted-section-item{
    border: 1px solid grey;
-   margin: 5px;
+   /* margin: 5px; */
    background-color: #070707;
+}
+#after{
+    height: 200px;
 }
