@@ -114,7 +114,6 @@ header{
     background-image: url(../img/IMG_0537.JPG);
     height:  calc(90vh - 100px);
     background-position: center;
-
 }
 section{
     background-color: black;
@@ -125,7 +124,6 @@ section{
     grid-template-columns: 300px  ;
     grid-template-rows: 300px;
     justify-content: center;
-    align-items: center;
 }
 .grid-item{
     padding: 10px;
@@ -139,14 +137,11 @@ section{
     background-color: #000000;
     text-align: center;
     color: #FFFFFF;
-    /* border: 2px solid red; */
 }
 .section-2-header{
     background-color: #000000;
     text-align: center;
     color: #FFFFFF;
-    /* border: 2px solid yellow; */
-    margin: 5px;
 }
 #Trusted-section{
     background-color: #1C1B1B;
