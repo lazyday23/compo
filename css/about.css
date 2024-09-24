@@ -1,6 +1,6 @@
 *{
     body{
-    background-color: rgba(255, 255, 255, 255);
+    background-color: #000000;
     margin: 0;
     }
     
@@ -289,3 +289,76 @@ section{
 #section-6{
     height: fit-content;
  }
+ #section-6 h4{
+    height: fit-content;
+    color: #074AF8;
+    text-align: center;
+    font-size: x-large;
+    text-transform: capitalize;
+ }
+ #section-6 p{
+    height: fit-content;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ #map{
+    border : 2px solid red ;
+    height: 500px ;
+    width: 100%;
+ }
+ #section-7{
+    background-color: #074AF8;
+    height: fit-content;
+ }
+ #section-7-container{
+    height: fit-content;
+    padding: 5px;
+ }
+ #section-7 h4{
+    height: fit-content;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    text-transform: capitalize;
+ }
+ #section-7 p{
+    height: fit-content;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ #section-8{
+    background-color: #22293C;
+    height: 380px;
+ }
+ #section-8 h6{
+    color: #fff;
+    height: fit-content;
+    text-align: center;
+ }
+ #section-8 h4{
+    color: #fff;
+    height: fit-content;
+    text-align: center;
+    padding:  5px;
+ }
+ #section-8 h6{
+    color: #fff;
+    height: fit-content;
+    text-align: center;
+ }
+ #section-8-container ul{
+    text-decoration: none;
+    list-style: none;
+ }
+ #section-8-container ul li {
+    list-style: none;
+ }
+ footer{
+    color : black;
+    background-color: purple;
+    text-align: center;
+}
