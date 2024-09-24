@@ -266,16 +266,9 @@ section{
 }
 .image-container{
     border :2px  solid #ffffff89 ;
-}
-.image-container-name{
     background-color: #D9D9D9;
-    color : green;
-    text-align: center;
-    font-size: 20px;
-    height :  80px;
-    margin-top: 0;
 }
-.image-container-name h3 {
+.image-container h3 {
     color : #000000;
     font-size: large;
     font-style: italic;
@@ -285,10 +278,10 @@ section{
     text-transform: capitalize;
     height: 30px;
 }
-.image-container-name p {
-    padding: 5px ;
+.image-container p {
     color : rgb(0, 5, 0);
-    font-weight: 700;
+    text-align: center;
+    font-weight: 400;
     font-size: medium;
     height: 30px;
     text-transform: capitalize;
