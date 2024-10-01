@@ -10,11 +10,9 @@
     }
     p{ 
         color: white;
-        margin: 0;
     }
     h3 {
         color: #000000;
-        margin: 0;
     }
     h3 ~ h3 { 
         color: #074AF8;
@@ -264,7 +262,7 @@ section{
     grid-template-rows: 280px 280px 280px ;
     gap: 40px 10px;
     justify-content: center;
-        padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 .image-container{
     border :2px  solid #ffffff89 ;
@@ -279,6 +277,7 @@ section{
     padding: 5px ;
     text-transform: capitalize;
     height: 30px;
+    margin: 0;
 }
 .image-container p {
     color : rgb(0, 5, 0);
@@ -287,6 +286,7 @@ section{
     font-size: medium;
     height: 30px;
     text-transform: capitalize;
+    margin: 0;
 }
 #section-6{
     height: fit-content;
