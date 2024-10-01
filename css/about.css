@@ -304,13 +304,13 @@ section{
     text-transform: capitalize;
  }
  #map{
-    border : 2px solid red ;
+    /* border : 2px solid red ; */
     height: 500px ;
     width: 100%;
  }
  #section-7{
     background-color: #074AF8;
-    height: fit-content;
+    height: 280px;
  }
  #section-7-container{
     height: fit-content;
@@ -330,9 +330,32 @@ section{
     text-align: center;
     text-transform: capitalize;
  }
+ #section-7 form{
+   background-color: #D9D9D9;
+   height: 70px;
+   border-radius: 10px ;
+   margin: 0 20px;
+ }
+ #section-7 input{
+    outline-style: hidden;
+    background-color: #D9D9D9;
+    height: 30px;
+    box-sizing: content-box;
+    text-wrap: nowrap;
+    /* border: none;
+    border-bottom: 2px solid #000000;
+    display: inline; */
+} 
+#section-7 button{
+    background-color: #074AF8;
+    color: white;
+    margin:  10px auto;
+    width: 30%;
+    height: 50px;
+}
  #section-8{
     background-color: #22293C;
-    height: 380px;
+    height: 500px;
  }
  #section-8 h6{
     color: #fff;
@@ -340,15 +363,19 @@ section{
     text-align: center;
  }
  #section-8 h4{
-    color: #fff;
+    color: #074AF8;
     height: fit-content;
     text-align: center;
-    padding:  5px;
- }
- #section-8 h6{
+    padding: 10px; 
+}
+#section-8 p{
     color: #fff;
     height: fit-content;
-    text-align: center;
+    text-align: left;
+    font-size: medium;
+    font-weight: 400;
+    text-wrap: wrap;
+    margin: 2px  10px;
  }
  #section-8-container ul{
     text-decoration: none;
@@ -356,9 +383,20 @@ section{
  }
  #section-8-container ul li {
     list-style: none;
+    margin: 2px;
+ }
+ #section-8-container ul li  a{
+    list-style: none;
+    margin: 2px;
+    color: #fff;
+    text-decoration: none;
  }
  footer{
-    color : black;
-    background-color: purple;
+    color : #fff;
+    background-color: #074AF8;
+    height: 40px;
+    padding: 10px;
+    text-wrap: nowrap;
+    font-size: small;
     text-align: center;
 }
