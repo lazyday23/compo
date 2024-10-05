@@ -5,4 +5,4 @@ This is a Demo website for my porfolio project. It is a  real estate site showca
 Site has been made compartible  with all devices using different breakpoints.
 
 ## Vercel Analytics
-### Vercel Analytics is  being used to track the activities and numbers of users that interact with the website.
+ Vercel Analytics is  being used to track the activities and numbers of users that interact with the website.
