@@ -69,7 +69,8 @@ section{
     height: fit-content;
 }
 #section-image{
-    width: 100%;
+    width: 96%;
+    margin: auto;
     background-size: cover;
     background-image: url(../img/IMG_0537.JPG);
     height:  calc(70vh - 100px);
@@ -179,7 +180,8 @@ section{
     background-color: #000000;
 }
 #contact-image-2{
-    width: 100%;
+    width: 96%;
+    margin: auto;
     background-size: cover;
     background-image: url(../img/pexels-olly-3756679.jpg);
     height: 50vh;
@@ -217,23 +219,23 @@ section{
 }
 #section-3-item-2{
     background-color: #074AF8;
-    height: 80px;
+    height: 60px;
     margin: 2px auto 10px auto;
     display: block;
     font-size: small;
     text-align: justify;
     text-transform: capitalize;
-    padding: 5px;
     text-wrap: wrap;
+    box-sizing: content-box;
+    padding: 15px ;
+    line-height: 20px;
 }
 #contact-image-3{
     width: 100%;
     background-size: cover;
     background-image: url(../img/pexels-olly-3860819.jpg);
     height: 90vh;
-    /* background-position: center; */
-    background-position-x: center;
-    background-position-y: top ;
+    background-position: center;
 }
 #contact-image-3-item{
     width: 50%;
@@ -335,22 +337,28 @@ section{
     text-align: center;
     text-transform: capitalize;
  }
- #section-7 form{
+ #section-7 form {
    background-color: #D9D9D9;
    height: 70px;
    border-radius: 10px ;
-   display: flex;
+   margin: 0 10px;
+   box-sizing: content-box;
  }
  input[type = email]{
-    outline-style: hidden;
+    outline-style: none;
     background-color: #D9D9D9;
-    height: 30px;
     box-sizing: content-box;
     text-wrap: nowrap;
-    margin: 15px;
+    margin: 10px;
     border: none;
     font-size: small;
+    margin-left: 10px;
+    width: 55%;
+    color: #000000;
 } 
+input::placeholder{
+    color : #000000;
+}
 #section-7 button{
     background-color: #074AF8;
     color: #FFFFFF;
@@ -360,6 +368,8 @@ section{
     font-size: small;
     text-wrap:nowrap ;
     border: none;
+    width: 32%;
+    padding: 5px;
 }
  #section-8{
     background-color: #22293C;
@@ -411,4 +421,121 @@ section{
     font-size: small;
     text-align: center;
     margin-bottom: 0;
+}@media screen and ( min-width:480px )  {
+    #grid{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows:  250px 250px ;
+        justify-content: center;
+    }
+    #section-1-header{
+       margin: 20px;
+       text-align: center;
+    } 
+    #section-1-paragraph{
+        margin:  0 20px;
+        text-align: justify;
+    } 
+    .section-2-header{
+        padding: 30px;
+    }
+
+    #Trusted-section{
+        grid-template-columns: 150px 150px 150px  150px ;
+        grid-template-rows: 100px;
+    }
+
+    #contact-image-2-content{
+        width: 50%;
+    }
+    #contact-image-3{
+        width: 90%;
+        margin: auto;
+    }
+    #section-3-item{
+        width: 53%;
+    }
+    #section-3-item-2{
+        height: 40px;
+        font-size: medium;
+        box-sizing: content-box;
+    }
+    #section-5-images{
+        grid-template-columns: 150px 150px 150px ;
+        grid-template-rows: 280px 280px ;
+        gap: 50px 100px;
+        justify-content: center;
+        padding-bottom: 12px;
+    }
+
+    #section-7 form {
+        margin: 0 20px;
+      }
+      input[type = email]{
+         font-size: small;
+         margin-left: 10px;
+         width: 60%;
+     } 
+     input::placeholder{
+         color : #000000;
+     }
+     #section-7 button{
+         width: 35%;
+     }
+
+  
+     #section-8-container{
+        margin: 0  5px;
+     }
+     #section-8-container ul li {
+        list-style: none;
+     }
+     #section-8-container ul li  a{
+        list-style: none;
+        margin: 5px;
+        color: #fff;
+        text-decoration: none;
+     }
+    
+}
+
+@media screen and ( min-width:992px ){
+    
+    #section-image{
+        width: 95%;
+        margin: auto;
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .section-container{
+       text-align: center;
+       padding: 5px;
+      }
+
+      #section-1-paragraph{
+        font-size: x-large;
+        text-align: center;
+        padding: 10px;
+        border-bottom: none;
+    } 
+    #contact-image-2{
+        height: 100vh;
+        background-position-x: center ;
+        background-position-y: top;
+        width: 80%;
+        margin: auto;
+    }
+    #contact-image-3{
+        margin: auto;
+    }
+
+    #section-3-item-2{
+        height: 40px;
+        line-height: normal;
+        font-size: x-large;
+        box-sizing: content-box;
+        text-align: center;
+        width: 85%;
+
+    }
 }
